@@ -16,7 +16,7 @@
 title: Donate Your Coffee
 description: >- # this means to ignore newlines until "baseurl:"
   Respond to Crisis with Mutual Aid
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/donate-your-coffee" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
