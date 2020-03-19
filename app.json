@@ -1,0 +1,21 @@
+{
+  "name": "DYC Backend",
+  "description": "Crowdfund aggregation database",
+  "repository": "https://github.com/CMUtech4society/donate-your-coffee",
+  "logo": "https://raw.githubusercontent.com/CMUtech4society/donate-your-coffee/gh-pages/assets/img/wildcat-sb.png",
+  "success_url": "https://cmutech4society.github.io/donate-your-coffee/",
+  "addons": [
+    "cleardb:ignite"
+  ],
+  "env": {
+    "HEROKU": {
+      "description": "Variable to let the app know it is running on the Heroku Platform",
+      "value": "1",
+      "required": true
+    },
+    "HEROKU_SECRET": {
+      "description": "Random number so no one can reverse engineer passwords",
+      "generator": "secret"
+    }
+  }
+}
