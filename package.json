@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha",
+    "htmlcoverage": "nyc --reporter=html mocha && hs coverage",
     "migrate": "knex migrate:latest",
     "knex": "knex"
   },
@@ -18,6 +19,7 @@
     "express-async-errors": "^3.1.1",
     "express-bearer-token": "^2.4.0",
     "knex": "^0.20.11",
+    "lodash": "^4.17.15",
     "morgan": "^1.9.1",
     "mysql": "^2.18.1"
   },

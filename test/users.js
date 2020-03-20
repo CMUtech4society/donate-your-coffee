@@ -17,6 +17,6 @@ describe('user db functions', () => {
 
   it('should see the admin user', async () => {
     // console.log('ok');
-    console.log(await db('user').select());
+    expect(await db('user').select()).to.have.length(1);
   });
 });
